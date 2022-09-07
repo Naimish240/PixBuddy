@@ -1,0 +1,2 @@
+# PixBuddy
+Photo Management Software
