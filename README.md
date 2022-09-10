@@ -11,13 +11,17 @@ Pix Buddy is an image management software package written in Python using Stream
 Step 1:
 Create a Python Virtual Environment and activate it.
 Linux & Mac: 
+
 Run `python3 -m venv env`,
+
 Then run `. env/bin/activate`
 
 Step 2:
+
 Run `streamlit run app.py` to load the app.
 
 Step 3:
+
 Select the folder the images are in using the folder navigator.
 
 ---
