@@ -1,0 +1,8 @@
+# Virtual Environment
+pix/
+
+# VSCode
+.vscode/
+
+.DS_Store
+code/__pycache__/
