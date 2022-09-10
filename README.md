@@ -30,8 +30,15 @@ Select the folder the images are in using the folder navigator.
 **Features**:
 
 1. Easily view all images in a folder directly in the browser.
+2. Quickly add notes to the images in-browser.
 
 *Coming Soon*:
-- Quickly add notes to the images in-browser.
+
 - Identify duplicates in a folder using ImageHash.
 - Quick edits on images in-app.
+
+---
+
+Note:
+
+To work from a new folder, refresh the app from the "app" page.

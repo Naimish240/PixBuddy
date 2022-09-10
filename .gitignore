@@ -1,8 +1,7 @@
 # Virtual Environment
 pix/
 
-# VSCode
 .vscode/
-
 .DS_Store
-code/__pycache__/
+pages/__pycache__
+__pycache__/
