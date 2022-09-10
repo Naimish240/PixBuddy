@@ -8,7 +8,8 @@ def get_images():
     images = []
 
     for item in listdir(folder):
-        if (item.endswith(".png") or item.endswith(".jpg") or item.endswith(".jpeg")):
+        foo = item.lower()
+        if foo[-4:] in ['.png', '.jpg'] or foo[-5:] in [".jpeg"]:
             images.append(folder + '/' + item)
 
     return images
@@ -22,6 +23,7 @@ if 'index' not in st.session_state:
 
 image = Image.open(st.session_state.images[st.session_state.index % len(st.session_state.images)])
 
+st.markdown(f"Total images in folder: {len(st.session_state.images)}")
 st.markdown(f"Loading image from path {st.session_state.images[st.session_state.index % len(st.session_state.images)]}")
 
 st.image(image, use_column_width=True)
